@@ -77,8 +77,8 @@ var getPublicationMultiplierFormula = (symbol) => "1";
 var getTau = () => currency.value;
 var get2DGraphValue = () => 1;
 
-var getC1 = (level) => game.starsTotal = 1e50;
-var getC2 = (level) => game.dpsi += game.dpsi * game.dpsi;
+var getC1 = (level) => Game.starsTotal = 1e50;
+var getC2 = (level) => Game.dpsi += Game.dpsi * Game.dpsi;
 var getC1Exponent = (level) => BigNumber.from(1 + 0.05 * level);
 var getC2Exponent = (level) => BigNumber.from(1 + 0.05 * level);
 
